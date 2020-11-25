@@ -10,12 +10,13 @@ Credit risk is an inherently unbalanced classification problem, as the number of
 - Evaluate the performance of machine learning models.
 
 ### Summary of Analysis 
-#### Oversampling with RandomOverSampler
+| Model | precision | recall | Accuracy score |
+| :---:  | :---: | :---: | :---: |
+| Naive Random Oversampling | high-risk : 0.01 , low-risk : 0.99 | high-risk : 0.67 , low-risk : 0.63 | 0.648 | 
+| SMOTE Oversampling | high-risk : 0.01 , low-risk : 1.0 | high-risk : 0.62 , low-risk : 0.68 | 0.649 | 
+| ClusterCentroids Undersampling | high-risk : 0.01 , low-risk : 1.0 | high-risk : 0.63 , low-risk : 0.42 | 0.523 |
+| SMOTEENN algorithm | high-risk : 0.01 , low-risk : 1.0 | high-risk : 0.72 , low-risk : 0.59 | 0.658 | 
+| Balanced Random Forest Classifier | high-risk : 0.03 , low-risk : 1.0 | high-risk : 0.61 , low-risk : 0.88 | 0.745 | 
+| Easy Ensemble AdaBoost Classifier | high-risk : 0.04 , low-risk : 1.0 | high-risk : 0.88 , low-risk : 0.88 | 0.881 |
 
-#### Oversampling with SMOTE algorithms
-
-#### Undersampling with cluster centroids algorithm
-
-#### Combination approach with the SMOTEENN algorithm
-
-#### Prediction with BalancedRandomForestClassifier
+- According to precision and recall scores, the Easy Ensemble AdaBoost Classifier performed better compare to 5 models we used to predict credit risk. However recall score of high-risk loan is 0.04, to predict high-risk loans we might need to research for a better prediction algorithm.  
