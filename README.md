@@ -11,7 +11,7 @@ Credit risk is an inherently unbalanced classification problem, as the number of
 
 ### Summary of Analysis 
 | Model | precision | recall | Accuracy score |
-| :---:  | :---: | :---: | :---: |
+| :------  | :--: | :--: | :--: |
 | Naive Random Oversampling | high-risk : 0.01 , low-risk : 0.99 | high-risk : 0.67 , low-risk : 0.63 | 0.648 | 
 | SMOTE Oversampling | high-risk : 0.01 , low-risk : 1.0 | high-risk : 0.62 , low-risk : 0.68 | 0.649 | 
 | ClusterCentroids Undersampling | high-risk : 0.01 , low-risk : 1.0 | high-risk : 0.63 , low-risk : 0.42 | 0.523 |
