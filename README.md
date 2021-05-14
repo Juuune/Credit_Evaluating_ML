@@ -1,13 +1,19 @@
 # Supervised Machine Learning 
 
-## Challenge 
+## Credit Risk Analysis
 ### Background 
-Credit risk is an inherently unbalanced classification problem, as the number of good loans easily outnumber the number of risky loans. Therefore, we’ll need to employ different techniques to train and evaluate models with unbalanced classes. Our client asks you to use imbalanced-learn and scikit-learn libraries to build and evaluate models using resampling. Our final task is to evaluate the performance of these models and make a recommendation on whether they should be used to predict credit risk.
+Credit risk is an inherently unbalanced classification problem, as the number of good loans easily outnumber the number of risky loans. Therefore, we need to employ different techniques to train and evaluate models with unbalanced classes. Our client asks you to use imbalanced-learn and scikit-learn libraries to build and evaluate models using resampling. The final task is to evaluate the performance of these models and make a recommendation on whether they should be used to predict credit risk.
 
 ### Objective
-- Implement machine learning models.
-- Use resampling to attempt to address class imbalance.
+- Implement machine learning models to claasify loans with higher credit risk 
+- Use resampling method to attempt to address class imbalance.
 - Evaluate the performance of machine learning models.
+
+### Techniques used
+- python with sklearn and imblearn
+
+### Data Source 
+![loan status data](https://github.com/Juuune/Supervised_Machine_Learning/blob/main/Challenge/Resources/Module-17-Challenge-Resources/LoanStats_2019Q1.csv)
 
 ### Summary of Analysis 
 | Model | precision | recall | Accuracy score |
